@@ -299,3 +299,36 @@
     display: block;
     width: 100%;
 }
+@media (max-width: 860px) {
+
+            .card-body,
+            .project-card:nth-child(even) .card-body {
+                grid-template-columns: 1fr;
+            }
+
+            .project-card:nth-child(even) .card-info {
+                order: 1;
+            }
+
+            .project-card:nth-child(even) .card-gallery {
+                order: 2;
+            }
+
+            .card-gallery {
+                min-height: 240px;
+            }
+
+            .card-info {
+                padding: 1.8rem;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .projects-title {
+                font-size: 1.9rem;
+            }
+
+            .card-title {
+                font-size: 1.3rem;
+            }
+        }

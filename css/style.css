@@ -96,39 +96,9 @@
         /* ══════════════════════════════
        RESPONSIVE
     ══════════════════════════════ */
-        @media (max-width: 860px) {
-
-            .card-body,
-            .project-card:nth-child(even) .card-body {
-                grid-template-columns: 1fr;
-            }
-
-            .project-card:nth-child(even) .card-info {
-                order: 1;
-            }
-
-            .project-card:nth-child(even) .card-gallery {
-                order: 2;
-            }
-
-            .card-gallery {
-                min-height: 240px;
-            }
-
-            .card-info {
-                padding: 1.8rem;
-            }
-        }
+        
 
         @media (max-width: 640px) {
-            .projects-title {
-                font-size: 1.9rem;
-            }
-
-            .card-title {
-                font-size: 1.3rem;
-            }
-
             .about-grid {
                 grid-template-columns: 1fr;
                 gap: 2.5rem;
@@ -156,14 +126,6 @@
 
             .about-heading {
                 font-size: 2rem;
-            }
-
-            .nav-links {
-                display: none;
-            }
-
-            .hamburger {
-                display: flex;
             }
 
             .avatar-ring,
@@ -205,27 +167,4 @@
             width: 100%;
         }
 
-        /* ── responsive ── */
-        @media (max-width: 860px) {
-            .contact-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .contact-form-wrap {
-                order: -1;
-            }
-        }
-
-        @media (max-width: 560px) {
-            .contact-title {
-                font-size: 1.9rem;
-            }
-
-            .form-row {
-                grid-template-columns: 1fr;
-            }
-
-            .contact-form-wrap {
-                padding: 1.6rem;
-            }
-        }
+        
