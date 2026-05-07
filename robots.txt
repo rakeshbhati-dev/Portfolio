@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rakeshbhati.netlify.app/sitemap.xml
