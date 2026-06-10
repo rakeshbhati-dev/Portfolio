@@ -1,10 +1,52 @@
-// ══════════════════════════════
-//  PROJECT DATA — add new projects here
-// ══════════════════════════════
 const projects = [
   {
-    id: 0,
-    number: "01",
+  id: 0,
+  number: "01",
+  title: "Pockentra",
+  description: "A full-stack personal finance tracker with interactive charts, income/expense management, and a responsive dashboard. Built with MongoDB, Express, React, and Node.js.",
+  tags: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+  liveUrl: "https://pockentra.vercel.app/",
+  githubUrl: "https://github.com/rakeshbhati-dev/Pockentra",
+  images: [
+    { src: "/assets/project images/pockentra-1.jpeg", alt: "Pockentra screenshot 1" },
+    { src: "/assets/project images/pockentra-2.jpeg", alt: "Pockentra screenshot 2" },
+    { src: "/assets/project images/pockentra-3.png", alt: "Pockentra screenshot 3" },
+  ],
+},
+
+{
+  id: 1,
+  number: "02",
+  title: "Roast & Petal — Cafe Landing Page",
+  description: "A professional cafe landing page built for freelance portfolio. Features menu section, gallery, testimonials, and contact information. Fully responsive.",
+  tags: ["React", "Tailwind CSS"],
+  liveUrl: "https://roastandpetal.netlify.app",
+  githubUrl: "https://github.com/rakeshbhati-dev/roastandpetal",
+  images: [
+    { src: "/assets/project images/cafe-1.png", alt: "Roast and Petal screenshot-1" },
+    { src: "/assets/project images/cafe-2.png", alt: "Roast and Petal screenshot-2" },
+    { src: "/assets/project images/cafe-3.png", alt: "Roast and Petal screenshot-3" },
+  ],
+},
+
+{
+    id: 2,
+    number: "03",
+    title: "WhatchNow",
+    description: "WhatchNow is a responsive movie discovery web app built with React. Browse Popular, Trending, and Most Anticipated movies, search any title instantly, and save your favorites to a personal watchlist — all powered by Trakt and OMDB APIs",
+    tags: ["React", "Tailwind CSS"],
+    liveUrl: null,
+    githubUrl: "https://github.com/rakeshbhati-dev/WhatchNow",
+    images: [
+      { src: "/assets/project images/whatchnow-ss-1.png", alt: "WhatchNow screenshot 1" },
+      { src: "/assets/project images/whatchnow-ss-2.png", alt: "WhatchNow screenshot 2" },
+      { src: "/assets/project images/whatchnow-ss-3.png", alt: "WhatchNow screenshot 3" },
+    ],
+  },
+
+  {
+    id: 3,
+    number: "04",
     title: "Typetussle Game",
     description:
       "TypeTussle is a web-based word guessing battle game where correct and incorrect guesses reduce the opponent's or player's health bar. It features dynamic character expressions, animations, and sound effects to create an engaging win/lose experience.",
@@ -17,27 +59,8 @@ const projects = [
       { src: "/assets/project images/typetussle-3.png", alt: "Typetussle screenshot 3" },
     ],
   },
-
-  // ── ADD MORE PROJECTS BELOW ──
-  {
-    id: 1,
-    number: "02",
-    title: "WhatchNow",
-    description: "WhatchNow is a responsive movie discovery web app built with React. Browse Popular, Trending, and Most Anticipated movies, search any title instantly, and save your favorites to a personal watchlist — all powered by Trakt and OMDB APIs",
-    tags: ["React", "Tailwind CSS"],
-    liveUrl: null,
-    githubUrl: "https://github.com/rakeshbhati-dev/WhatchNow",
-    images: [
-      { src: "/assets/project images/whatchnow-ss-1.png", alt: "WhatchNow screenshot 1" },
-      { src: "/assets/project images/whatchnow-ss-2.png", alt: "WhatchNow screenshot 2" },
-      { src: "/assets/project images/whatchnow-ss-3.png", alt: "WhatchNow screenshot 3" },
-    ],
-  },
 ];
 
-// ══════════════════════════════
-//  RENDER — do not edit below unless you know what you're doing
-// ══════════════════════════════
 function buildGallery(id, images) {
   const slides = images
     .map(
