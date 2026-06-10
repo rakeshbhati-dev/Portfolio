@@ -23,9 +23,9 @@ const projects = [
   liveUrl: "https://roastandpetal.netlify.app",
   githubUrl: "https://github.com/rakeshbhati-dev/roastandpetal",
   images: [
-    { src: "/assets/project images/cafe-1.png", alt: "Roast and Petal screenshot-1" },
-    { src: "/assets/project images/cafe-2.png", alt: "Roast and Petal screenshot-2" },
-    { src: "/assets/project images/cafe-3.png", alt: "Roast and Petal screenshot-3" },
+    { src: "/assets/project images/cafe-1.jpg", alt: "Roast and Petal screenshot-1" },
+    { src: "/assets/project images/cafe-2.jpg", alt: "Roast and Petal screenshot-2" },
+    { src: "/assets/project images/cafe-3.jpg", alt: "Roast and Petal screenshot-3" },
   ],
 },
 
